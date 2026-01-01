@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+
+}
+.nav-box{
+    background-image: url("netflix img3.jpg");
+    height: 97vh;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: max(800px ,100vw );
+    position :relative;
+}
+
+ .nav-box .box{
+    height: 97vh;
+    width: 100%;
+    opacity:0.64;
+    position: absolute;
+    top : 0;
+    background-color: black;
+}
+
+nav{
+    height: 52px;
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    margin-top: 30px;
+    color: red;
+    width: 139px;
+    position: relative;
+    z-index: 8;
+}
+/* .nav-button{
+    gap: 30px;
+} */
+#sub{
+    position: relative;
+    z-index: 8;
+    background-color: rgba(23,23,23, 0.2);
+    color:white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding : 4px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav button{
+    position: relative;
+    z-index: 8;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding : 6px 11px;
+    border-radius: 4px;
+    border: 1px solid rgba(23,23,23, 0.2);
+    cursor: pointer;
+}
+
+.content{
+    height: calc(100% - 52px);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.content> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    z-index: 10;
+    text-align: center;
+}
+
+.content> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    z-index: 9;
+    text-align: center;
+}
+
+.content> :nth-child(3){
+    font-weight: 400;
+    font-size: 23px;
+    z-index: 9;
+    text-align: center;
+}
+
+.separation{
+    background-color: rgba(128, 128, 128, 0.349);
+    height: 8px;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+.btn-get{
+    position: relative;
+    background-color: red;
+    color: white;
+    z-index: 8;
+    font-weight: bold;
+    padding : 14px 35px;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+.content-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+ input{
+    position: relative;
+    z-index : 8;
+    padding : 17px 139px 17px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23,23, 0.3);
+    border: 1px solid rgb(246, 238, 238, 0.25);
+    color: rgb(251, 247, 247);
+    font-weight: 700;
+}
+
+.sec-first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70vw;
+    min-height: 80vh;
+    color: white;
+    align-items: center;
+    gap:30px;
+}
+@media screen and (max-width :1300px){
+    .sec-first{
+    flex-wrap: wrap;}
+}
+.sec1img{
+    position: relative;
+}
+
+.sec1img img {
+    margin-top : 10px;
+    width :30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.sec1img video{
+    position: absolute;
+    right:0px;
+    top: 52px;
+}
+
+.sec-first> div {
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+    padding :34px 0;
+}
+
+.sec-first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sec-first> div :nth-child(2){
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.faq> h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+.faq{
+    color: white;
+    padding: 57px;
+}
+.faqbox{
+     display: flex;
+     background-color: rgb(103, 99, 99,0.47);
+     justify-content: space-between;
+     font-size: 25px;
+     margin : 12px auto;
+     max-width: 75vw;
+     padding: 23px;
+     cursor: pointer;
+}
+.faqbox:hover{
+    background-color: rgb(103, 99, 99,0.65);
+}
+footer {
+    color: white;
+    margin:auto;
+    max-width:60vw;
+    padding: 14px;
+}
+footer a{
+    color: white;
+    font-size:14px ;
+}
+.Questions{
+    padding: 34px 0;
+}
+.footer{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    color: white;
+}
+.footer-item{
+    display: flex;
+    flex-direction : column;
+    gap:23px;
+}
